@@ -1,0 +1,47 @@
+@media all and (max-width: 768px){
+	.container {
+		width: 95%;
+	}
+	.header-area .logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.header-area .header-menu ul {
+		float: none;
+	}
+	.header-area .header-menu ul li {
+		float: none;
+	}
+	.section-services img {
+		width: auto;
+		height: auto;
+		max-width: 60%;
+	}
+	.col-4 {
+		width: 46%;
+		margin-right: 4%;
+		margin-bottom: 50px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.col-4 {
+		width:96%;
+		float: none;
+	}
+	.col-2 {
+		width: 90%;
+		margin-bottom: 20px;
+		margin: 5%;
+	}
+	.testimonial .client .col-2.first, 
+	.testimonial .client .col-2.second {
+		margin-bottom: 20px;
+	}
+	.portfolio-menu ul li {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+}
